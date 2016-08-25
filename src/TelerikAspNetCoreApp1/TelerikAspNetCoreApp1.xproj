@@ -14,6 +14,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <SchemaVersion>2.0</SchemaVersion>
+    <ApplicationInsightsResourceId>/subscriptions/2ce001c7-ce64-4a20-9ace-0e195ad9b114/resourcegroups/Default-ApplicationInsights-CentralUS/providers/microsoft.insights/components/TelerikAspNetCoreApp1</ApplicationInsightsResourceId>
   </PropertyGroup>
   <ItemGroup>
     <DnxInvisibleContent Include="bower.json" />
