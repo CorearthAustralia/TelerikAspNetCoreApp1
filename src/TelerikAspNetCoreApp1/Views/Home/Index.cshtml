@@ -1,4 +1,7 @@
-@using Kendo.Mvc.UI
+
+@*@using Kendo.Mvc.UI*@
+
+
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -13,14 +16,14 @@
 
     <div>
 
-        @(Html.Kendo().NumericTextBox<decimal>()
+        @*@(Html.Kendo().NumericTextBox<decimal>()
             .Name("currency")
             .Format("c")
             .Min(0)
             .Enable(true)
             .Max(100)
             .Value(30)
-        )
+        )*@
     </div>
 
 
