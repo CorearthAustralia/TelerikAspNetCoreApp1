@@ -11,7 +11,6 @@
       "version": "1.0.0-preview2-final",
       "type": "build"
     },
-    "Telerik.UI.for.AspNet.Core": "2016.2.714",
     "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
     "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
     "Microsoft.AspNetCore.StaticFiles": "1.0.0",
@@ -23,9 +22,7 @@
     "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
     "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
     "BundlerMinifier.Core": "2.2.281",
-    "KendoUICore": "2016.2.714",
-    "Kendo.Mvc": "2016.2.630-Preview"
-  },
+    "Telerik.UI.for.AspNet.Core": "2016.2.714" },
 
   "tools": {
     "BundlerMinifier.Core": "2.0.238",
