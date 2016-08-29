@@ -13,6 +13,7 @@ namespace TelerikAspNetCoreApp1.Controllers
     {
         public IActionResult Index()
         {
+            #if = 
             return View();
         }
 
