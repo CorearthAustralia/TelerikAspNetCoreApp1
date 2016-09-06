@@ -2036,6 +2036,18 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Stripe.net/6.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/dotnet/Stripe.net.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Stripe.net.dll": {}
+        }
+      },
       "System.AppContext/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -5735,6 +5747,21 @@
         "lib/netstandard1.0/_._",
         "runtime.native.System.Security.Cryptography.4.0.0.nupkg.sha512",
         "runtime.native.System.Security.Cryptography.nuspec"
+      ]
+    },
+    "Stripe.net/6.5.0": {
+      "sha512": "Kl8t08S3Cl1PRT9tBYAIFqfYmJsYznCrOuYcZqZOjWk/7w7JpMHAfDPURkInZnMULE3sOGeIz7Ew7j+fq95vxA==",
+      "type": "package",
+      "path": "Stripe.net/6.5.0",
+      "files": [
+        "Stripe.net.6.5.0.nupkg.sha512",
+        "Stripe.net.nuspec",
+        "lib/dotnet/Stripe.net.dll",
+        "lib/dotnet/Stripe.net.xml",
+        "lib/net45/Stripe.net.dll",
+        "lib/net45/Stripe.net.xml",
+        "lib/portable-net45+win8+wpa81/Stripe.net.dll",
+        "lib/portable-net45+win8+wpa81/Stripe.net.pdb"
       ]
     },
     "System.AppContext/4.1.0": {
@@ -10510,6 +10537,7 @@
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 1.0.0",
       "Microsoft.NETCore.App >= 1.0.0",
       "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0",
+      "Stripe.net >= 6.5.0",
       "Telerik.UI.for.AspNet.Core >= 2016.2.714"
     ],
     ".NETCoreApp,Version=v1.0": []
