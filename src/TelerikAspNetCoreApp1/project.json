@@ -22,7 +22,8 @@
     "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
     "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
     "BundlerMinifier.Core": "2.2.281",
-    "Telerik.UI.for.AspNet.Core": "2016.2.714" },
+    "Telerik.UI.for.AspNet.Core": "2016.2.714",
+    "Stripe.net": "6.5.0" },
 
   "tools": {
     "BundlerMinifier.Core": "2.0.238",
