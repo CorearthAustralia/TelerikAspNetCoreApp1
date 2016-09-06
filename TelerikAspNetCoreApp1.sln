@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stripe", "..\stripe.net\src\Stripe\Stripe.csproj", "{E48E9AC1-3A88-406B-82FF-166B1E3C7A48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{23017BD4-4A18-4DC8-85FB-2BA1210B47B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23017BD4-4A18-4DC8-85FB-2BA1210B47B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23017BD4-4A18-4DC8-85FB-2BA1210B47B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E48E9AC1-3A88-406B-82FF-166B1E3C7A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E48E9AC1-3A88-406B-82FF-166B1E3C7A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E48E9AC1-3A88-406B-82FF-166B1E3C7A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E48E9AC1-3A88-406B-82FF-166B1E3C7A48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
