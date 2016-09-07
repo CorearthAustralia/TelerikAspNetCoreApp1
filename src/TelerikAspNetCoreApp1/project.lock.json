@@ -10537,6 +10537,7 @@
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 1.0.0",
       "Microsoft.NETCore.App >= 1.0.0",
       "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0",
+      "Newtonsoft.Json >= 9.0.1",
       "Stripe.net >= 6.5.0",
       "Telerik.UI.for.AspNet.Core >= 2016.2.714"
     ],
