@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - TelerikAspNetCoreApp1</title>
+    @*<title>@ViewData["Title"] - TelerikAspNetCoreApp1</title>*@
+
     <link href="@Url.Content("~/Content/kendo/2016.2.714/kendo.common.min.css")" rel="stylesheet" type="text/css" />
     <link href="@Url.Content("~/Content/kendo/2016.2.714/kendo.mobile.all.min.css")" rel="stylesheet" type="text/css" />
     <link href="@Url.Content("~/Content/kendo/2016.2.714/kendo.dataviz.min.css")" rel="stylesheet" type="text/css" />
@@ -36,8 +37,8 @@
                         .Items(items =>
                         {
                             items.Add().Text("Index").Action("Index", "Home");
-                            items.Add().Text("Online Payment - Checkout").Action("About", "Home");
-                            items.Add().Text("Online Payment via API").Action("Contact", "Home");
+                            items.Add().Text("Online Payment - Checkout").Action("CheckoutPayment", "OnlinePayment");
+                            items.Add().Text("Online Payment via API").Action("APIPayment", "OnlinePayment");
                         }
                         )
                 )
@@ -48,7 +49,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2016 - TelerikAspNetCoreApp1</p>
+            @*<p>&copy; 2016 - TelerikAspNetCoreApp1</p>*@
         </footer>
     </div>
 

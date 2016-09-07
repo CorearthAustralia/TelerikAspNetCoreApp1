@@ -1,5 +1,33 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿<script src="https://checkout.stripe.com/checkout.js"></script>
+
+<button id="customButton">Subscribe</button>
+
+<script>
+
+var handler = StripeCheckout.configure({
+    key: 'pk_test_e1lLblBoS4QyXOqTHU4y5hne',
+  locale: 'auto',
+  token: function(token) {
+    // You can access the token ID with `token.id`.
+      // Get the token ID to your server-side code for use.
+      alert(token.id);
+  }
+});
+
+
+$('#customButton').on('click', function(e) {
+  // Open Checkout with further options:
+  handler.open({
+    name: 'www.Corearth.com',
+    description: 'Online Payment',
+zipCode: true,
+    amount: 2000
+  });
+  e.preventDefault();
+});
+
+// Close Checkout on page navigation:
+$(window).on('popstate', function() {
+  handler.close();
+});
+</script>
